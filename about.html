@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>About Me</title>
+<link href="https://fonts.googleapis.com/css?family=Darker+Grotesque:300,400,600,700&display=swap" rel="stylesheet" media="screen">
+<link href="/assets/style.css" rel="stylesheet" media="screen">
+
+    
+<style>
+    canvas,div.overlay{height:100%;top:0;left:0}body,h1,html{margin:0;padding:0}canvas,div.overlay,footer{position:absolute;width:100%}footer,p{display:block;letter-spacing:1px}footer,main{text-align:center}a,body{color:#acb8b4}body,html{height:100%}body{background:url(https://fullst-ck.dev/assets/background.jpeg) center center #101312;background-size:cover;font-family:'Darker Grotesque',sans-serif}body.support--webp{background:url(https://fullst-ck.dev/assets/background.webp) center center #101312;background-size:cover}div.overlay{background:url(https://fullst-ck.dev/assets/overlay.png) center center;background-size:cover;mix-blend-mode:hard-light}h1 span,main{position:relative}body.support--webp div.overlay{background:url(https://fullst-ck.dev/assets/overlay.webp) center center;background-size:cover}main{max-width:800px;top:50%;margin:0 auto;-webkit-transform:translate(0,-70%);-ms-transform:translate(0,-70%);transform:translate(0,-70%)}h1{font-size:5rem;font-weight:400;text-transform:uppercase;line-height:6rem;letter-spacing:25px}footer,h1 span{font-weight:300}h1 span{top:38px;font-size:9.4rem;line-height:4rem}p{width:70%;margin:35px auto;font-size:1.2rem;line-height:1.5rem}footer{bottom:15px;font-size:1rem}a{text-decoration:none;-webkit-transition:color .25s ease;-o-transition:color .25s ease;transition:color .25s ease}a:hover{color:#e3e7e6}@media screen and (max-width:800px){h1{font-size:3rem;line-height:4rem;letter-spacing:15px}h1 span{top:25px;font-size:6rem;line-height:2rem}p{width:60%;margin:25px auto;font-size:1rem;line-height:1.4rem;letter-spacing:1px}footer{font-size:.9rem}}@media screen and (max-width:500px){h1{font-size:2rem;line-height:3rem;letter-spacing:10px}h1 span{top:16px;font-size:3.8rem;line-height:1.5rem}p{width:80%;margin:25px auto;font-size:1rem;line-height:1.4rem;letter-spacing:1px}footer{font-size:.9rem}}
+
+</style>
+</head>
+<body>
+<canvas></canvas>
+<div class="overlay"></div>
+<main>
+<h1>About Me</h1>
+<p>An Affiliate Marketer Of Forever Living<br>
+<span>Contact Me To Buy Forever Products</span>
+</p>
+<img src="ak.jpg" width="300px" height="300px">
+</main>
+<footer>
+<a href="https://www.instagram.com/emotions_cell/">Instagram</a> &mdash;
+</footer>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="text/javascript" defer>
+    "use strict";function _instanceof(t,i){return null!=i&&"undefined"!=typeof Symbol&&i[Symbol.hasInstance]?!!i[Symbol.hasInstance](t):t instanceof i}function _classCallCheck(t,i){if(!_instanceof(t,i))throw new TypeError("Cannot call a class as a function")}function _defineProperties(t,i){for(var e=0;e<i.length;e++){var h=i[e];h.enumerable=h.enumerable||!1,h.configurable=!0,"value"in h&&(h.writable=!0),Object.defineProperty(t,h.key,h)}}function _createClass(t,i,e){return i&&_defineProperties(t.prototype,i),e&&_defineProperties(t,e),t}!function(t,i){function e(t,i){var e=t+Math.random()*(i-t);return Math.random()>.5?e:-e}var h=60,n=1e3/h,s=2,a=2.5,r=180,o=.1,c=.2,l="rgba(97, 145, 154, ",d=function(){function t(i,h,n){_classCallCheck(this,t),this.id=i,this.x=Math.random()*h,this.y=Math.random()*n,this.xSpeed=e(o,c),this.ySpeed=e(o,c)}return _createClass(t,[{key:"update",value:function(t,i){this.x+=this.xSpeed,this.y+=this.ySpeed,(this.x<a||this.x+a>t)&&(this.x=this.x<a?a:t-a,this.xSpeed=-this.xSpeed),(this.y<a||this.y+a>i)&&(this.y=this.y<a?a:i-a,this.ySpeed=-this.ySpeed)}},{key:"draw",value:function(t){t.beginPath(),t.arc(this.x,this.y,a,0,2*Math.PI),t.fill()}}]),t}(),u=function(){function t(i,e,h){_classCallCheck(this,t),this.ctx=i,this.width=e,this.height=h,this.ctx.globalCompositeOperation="lighter",this.reset()}return _createClass(t,[{key:"reset",value:function(){this.points=[],this.populate()}},{key:"populate",value:function(){for(var t=Math.ceil((this.width+this.height)/100*s),i=0;t>i;i++){var e=new d(i,this.width,this.height);this.points.push(e)}}},{key:"update",value:function(t,i){this.width=t,this.height=i;for(var e=0;e<this.points.length;e++){var h=this.points[e];h.update(t,i)}}},{key:"draw",value:function(){this.ctx.fillStyle=l+"0.9)";for(var t={},i=0;i<this.points.length;i++){var e=this.points[i];e.draw(this.ctx);for(var h=0;h<this.points.length;h++){var n=this.points[h];if(n.id!==e.id){var s=Math.abs(e.x-n.x),a=Math.abs(e.y-n.y),o=Math.sqrt(Math.pow(s,2)+Math.pow(a,2));if(r>=o){var c=e.id>n.id?"".concat(n.id,"_").concat(e.id):"".concat(e.id,"_").concat(n.id);if(t.hasOwnProperty(c))continue;t[c]={x1:e.x,y1:e.y,x2:n.x,y2:n.y,distance:o}}}}}for(var d=Object.values(t),u=0;u<d.length;u++){var f=d[u],p=1-f.distance/r;this.ctx.strokeStyle=l+p+")",this.ctx.beginPath(),this.ctx.moveTo(f.x1,f.y1),this.ctx.lineTo(f.x2,f.y2),this.ctx.stroke()}}}]),t}(),f=function(){function t(i,e,h){_classCallCheck(this,t),this.ctx=i,this.width=e,this.height=h,this.scene=new u(i,e,h),this.lastDraw=null}return _createClass(t,[{key:"update",value:function(){this.scene.update(this.width,this.height)}},{key:"draw",value:function(){var t=Date.now();if(null!==this.lastDraw){var i=t-this.lastDraw;if(n>i)return}this.ctx.clearRect(0,0,this.width,this.height),this.scene.draw(),this.lastDraw=t}},{key:"didResize",value:function(){this.scene.reset()}}]),t}();!function(t,i){function e(){i.addEventListener("resize",n),c=void 0!=i.devicePixelRatio?i.devicePixelRatio:1,s.width=r*c,s.height=o*c,l.width=r,l.height=o,a.scale(c,c),h()}function h(){l.update(),l.draw(),i.requestAnimationFrame(h)}function n(){r=s.width=i.innerWidth,o=s.height=i.innerHeight,s.width=r*c,s.height=o*c,l.width=r,l.height=o,a.scale(c,c),l.didResize()}var s=t.querySelector("canvas"),a=s.getContext("2d"),r=s.width=i.innerWidth,o=s.height=i.innerHeight,c=1,l=new f(a,r,o);e()}(t,i)}(document,window);
+    </script>
+</body>
+</html>

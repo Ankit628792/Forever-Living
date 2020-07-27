@@ -1,0 +1,777 @@
+ <!DOCTYPE HTML>
+<html>
+<head>
+<title>All products - Forever</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<link rel="stylesheet" type="text/css" href="style.css">
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" >
+ <script src="jquery.js"></script>
+    <script>
+     
+    $("document").ready(function(){
+       $(".back").on("click" , backShow);
+    });
+//        Product1
+    $("document").ready(function(){
+       $(".pro1").on("click" , div1Show);
+       $(".pro2").on("click" , div2Show);
+       $(".pro3").on("click" , div3Show);
+       $(".pro4").on("click" , div4Show);
+       $(".pro5").on("click" , div5Show);
+       $(".pro6").on("click" , div6Show);
+       $(".pro7").on("click" , div7Show);
+       $(".pro8").on("click" , div8Show);
+       $(".pro9").on("click" , div9Show);
+       $(".pro10").on("click" , div10Show);
+       $(".pro11").on("click" , div11Show);
+       $(".pro12").on("click" , div12Show);
+        $(".back").on("click" , backShow);
+    });
+
+        function backShow(){
+            $(".product-details").hide();
+            $(".products").show();
+        }
+        function div1Show(){
+            $(".div1").show();
+            $(".products").hide();
+        }
+        function div2Show(){
+            $(".div2").show();
+            $(".products").hide();
+        }
+        function div3Show(){
+            $(".div3").show();
+            $(".products").hide();
+        }
+        function div4Show(){
+            $(".div4").show();
+            $(".products").hide();
+        }
+        function div5Show(){
+            $(".div5").show();
+            $(".products").hide();
+        }
+        function div6Show(){
+            $(".div6").show();
+            $(".products").hide();
+        }
+        function div7Show(){
+            $(".div7").show();
+            $(".products").hide();
+        }
+        function div8Show(){
+            $(".div8").show();
+            $(".products").hide();
+        }
+        function div9Show(){
+            $(".div9").show();
+            $(".products").hide();
+        }
+        function div10Show(){
+            $(".div10").show();
+            $(".products").hide();
+        }
+        function div11Show(){
+            $(".div11").show();
+            $(".products").hide();
+        }
+        function div12Show(){
+            $(".div12").show();
+            $(".products").hide();
+        }
+    </script> 
+     <style>
+        .div1,.div2,.div3,.div4,.div5,.div6,.div7,.div8,.div9,.div10,.div11,.div12{
+            display: none;
+        }
+    </style>  
+</head>
+    
+<body>
+    
+    <div class="container">
+    <div class="navbar">
+    <div class="logo">
+        <h1>Forever Living</h1>
+        </div>
+        <nav>
+        <ul id="MenuItems">
+        <li><a href="index.html">Home</a></li>    
+        <li><a href="products1.html">Products</a></li>    
+        <li><a href="about.html" target="_blank">About</a></li>    
+        <li><a href="contact.html">Contact</a></li>    
+        </ul>
+        </nav>
+        <img src="cart.png" alt="" width="30px" height="30px">
+        <img src="menu.png" class="menu-icon" onclick="menutoggle()">
+    </div>
+    </div>
+ 
+<!--    FeaturedProducts-->
+    <div class="small-container">
+       <div class="row row-2">
+           <h2>All Products</h2>
+<!--
+           <select>
+               <option>Default Shorting</option>
+               <option>Short by Price</option>
+               <option>Short by Polpularity</option>
+               <option>Short by Rating</option>
+               <option>Short by Sale</option>
+           </select>
+-->
+      <a href="https://img1.wsimg.com/blobby/go/5bf9489c-99fa-4312-91f4-c7f86799ac14/downloads/Forever%20Living%20Product%20Catalogue%20English%202019.pdf?ver=1594890997840" class="btn">Download Full Catalogue</a>
+       </div>
+        <div class="row">
+        <div class="col-4 pro1">
+            <img src="25.jpg">
+            <h4>ALOE SUNSCREEN</h4>
+            <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            </div>
+            <p>$14.89</p>
+        </div>
+        <div class="col-4 pro2">
+            <img src="26.png">
+            <h4>ALOE NOURISHING SERUM</h4>
+            <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            </div>
+            <p>$39.36</p>
+        </div>
+        <div class="col-4 pro3">
+            <img src="27.png">
+            <h4>ALOE NOURISHING SERUM</h4>
+            <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+            </div>
+            <p>$16.67</p>
+        </div>
+        <div class="col-4 pro4">
+            <img src="28.png">
+            <h4>Eye cream</h4>
+            <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+            </div>
+            <p>$15.00</p>
+        </div>
+        </div>  
+        <div class="row">
+        <div class="col-4 pro5">
+            <img src="29.png">
+            <h4>ALOE AVOCADO FACE AND BODY SOAP</h4>
+            <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+            </div>
+            <p>$6.24</p>
+        </div>
+        <div class="col-4 pro6">
+            <img src="30.png">
+            <h4>FOREVER ALOE MPD</h4>
+            <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+            <i class="fa fa-star-o"></i>
+            </div>
+            <p>$26.50</p>
+        </div>
+        <div class="col-4 pro7">
+            <img src="31.png">
+            <h4>ALOE JOJOBA CONDITIONING RINSE</h4>
+            <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+            </div>
+            <p>$21.41</p>
+        </div>
+        <div class="col-4 pro8">
+            <img src="32.png">
+            <h4>FOREVER BEE HONEY</h4>
+            <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            </div>
+            <p>$21.41</p>
+        </div>
+        </div>
+        <div class="row">
+        <div class="col-4 pro9">
+            <img src="33.png">
+            <h4>ALOE JOJOBA SHAMPOO</h4>
+            <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+            </div>
+            <p>$21.41</p>
+        </div>
+        <div class="col-4 pro10">
+            <img src="34.png">
+            <h4>FOREVER ROYAL JELLY</h4>
+            <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+            <i class="fa fa-star-o"></i>
+            </div>
+            <p>$31.33</p>
+        </div>
+        <div class="col-4 pro11">
+            <img src="35.png">
+            <h4>FOREVER C PLUS</h4>
+            <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+            </div>
+            <p>$19.50</p>
+        </div>
+        <div class="col-4 pro12">
+            <img src="36.png">
+            <h4>ALPHA E FACTOR</h4>
+            <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+            </div>
+            <p>$27.33</p>
+        </div>
+        </div>
+        <div class="page-btn">
+            <span><a href="products1.html">1</a></span>
+            <span><a href="products2.html">2</a></span>
+            <span><a href="products3.html">3</a></span>
+        </div>      
+    </div>
+    
+
+<div class="product-details">
+        
+    <div class="div1">
+          <a href="#" class="btn back" style="margin-left: 700px; width: 150px;font-size: 1.2em;text-align: center;">Back</a>
+<!--Single Product 1-->
+<div class="small-container single-product">
+    <div class="row">
+        <div class="col-2">
+            <img src="25.jpg" width="100%" id="ProductImg">
+        </div>
+        <div class="col-2">
+            <p>Home / Forever Product</p>
+            <h1>ALOE SUNSCREEN</h1>
+            <h4>$22.30</h4>
+            
+            <input type="number" value="1">
+            <a href="https://www.instagram.com/emotions_cell/" class="btn">Contact Us to Buy</a>
+            <h3>Product Details <i class="fa fa-indent"></i></h3>
+            <br>
+            <p>Drink in the benefits of Forever Aloe Vera Gel®. Our aloe vera drinking gel is made of 99.7% pure inner leaf aloe with no preservatives for an experience as close to nature as you can get!</p>
+        </div>
+    </div>
+</div>
+<div class="des">
+<a href="" class="btn desc">Description</a>
+   <h3>Aloe as Nature Intended</h3><br>
+   <div class="details">
+        • 99.7% pure inner leaf aloe vera gel<br>
+        • No added preservatives<br>
+        • Supports healthy digestion<br>
+        • Promotes a healthy immune system<br>
+        • Supports nutrient absorption<br>
+        • Helps maintain natural energy levels<br>
+        • Vegan friendly<br>
+        • Vegetarian friendly<br>
+        • Gluten free<br><br>
+       <p>Imagine slicing open an aloe leaf and consuming the gel directly from the plant. Our Forever Aloe Vera Gel® is as close to the real thing as you can get! The first to receive certification by the International Aloe Science Council (IASC) for purity and potency, this nutrient rich drink is made from 99.7% pure inner-leaf gel and is sugar free, gluten free and contains no added preservatives. It’s pure, powerful and packed with benefits.
+
+Aloe vera helps you maintain natural energy levels and has natural cleansing abilities that help the digestive tract absorb nutrients from the foods we eat into the blood stream, while promoting friendly bacteria growth. The unique polysaccharide, acemannan, and other nutrients in aloe help to support the immune system. In fact, acemannan is one of the key markers used by the IASC to indicate quality aloe vera and Forever Aloe Vera Gel® has nearly double the amount required for certification!
+
+Our aloe vera gel is carefully grown and hand filleted before being extracted and processed within hours of harvesting, ensuring the more than 8 million gallons of aloe vera gel we process each year is as fresh as we can make it.
+
+Forever Aloe Vera Gel® is aseptically processed allowing the formula to remain free of added preservatives and boast an amazing 99.7% pure inner-leaf aloe vera gel. Packaged in Tetra Pak packaging made with 100% recyclable materials, Forever Aloe Vera Gel® ensures that you are able to enjoy the fresh taste of undiluted aloe vera gel with all of the potent properties of aloe just as nature intended.</p>
+       </div>
+    </div>
+<br>
+            <a href="" class="btn back" style="margin-left: 700px; width: 150px;font-size: 1.2em;text-align: center;">Back</a>
+
+   <br><br><br>
+    
+    </div>
+<!--  Single Product 2-->
+ <div class="div2">
+  <a href="#" class="btn back" style="margin-left: 700px; width: 150px;font-size: 1.2em;text-align: center;">Back</a>
+<div class="small-container single-product">
+    <div class="row">
+        <div class="col-2">
+            <img src="26.png" width="100%" id="ProductImg">
+        </div>
+        <div class="col-2">
+            <p>Home / Forever Product</p>
+            <h1>ALOE NOURISHING SERUM</h1>
+            <h4>$24.32</h4>
+            
+            <input type="number" value="1">
+            <a href="https://www.instagram.com/emotions_cell/" class="btn">Contact Us to Buy</a>
+            <h3>Product Details <i class="fa fa-indent"></i></h3>
+            <br>
+            <p>Forever Aloe Peaches™ is like sweet sunshine in a glass. We’ve taken our aloe vera gel and infused it with the sweet bold flavor of sun ripened peaches. But it’s not just about the wonderful fresh flavors.
+
+</p>
+        </div>
+    </div>
+</div>
+<div class="des">
+<a href="" class="btn desc">Description</a>
+   <h3>The benefits of aloe with sun-ripened peaches</h3><br>
+   <div class="details">
+        • 84.5% pure aloe vera gel<br>
+• No added preservatives<br>
+• Supports healthy digestion<br>
+• Promotes healthy immune system<br>
+• Helps maintain natural energy levels<br>
+• Sun ripened peaches for added flavor and nutrition<br>
+• Vegan friendly<br>
+• Vegetarian friendly<br>
+• Gluten free<br><br>
+       <p>Forever has paired the sweet, succulent taste of sun-ripened peaches with all the benefits of pure inner leaf aloe vera gel. The result is a flavorful drink that not only aids in digestion but is packed with nutrients and antioxidants.
+
+Forever Aloe Peaches™ is a great way to drink your daily aloe. This drink contains 84.5% stabilized, inner leaf aloe vera gel paired with natural peach puree for sustaining your immune system and maintaining natural energy levels. The aloe used is hand-harvested from our own plantations and is the first of its kind to receive certification by the International Aloe Science Council (IASC) for purity and potency.
+
+Aloe Vera has natural cleansing abilities that help the digestive tract absorb nutrients from the foods we eat into the blood stream, while promoting friendly bacteria growth. The unique polysaccharide, acemannan, and other nutrients in aloe help to modulate and support the immune system.
+<br>
+Pure stabilized inner-leaf aloe vera gel is paired with juicy peach puree with calcium for a robust drink with a sweet taste that’s high in vitamins, antioxidants and boasts all the nutritional power of aloe.
+<br>
+Forever Aloe Peaches® is aseptically processed allowing the formula to remain free of added preservatives and packaged in Tetra Pak packaging made with 100% recyclable materials to ensure that you are able to enjoy the fresh taste of undiluted aloe vera gel with all of the potent properties of aloe just as nature intended.
+<br>
+Great for kids and adults alike, this fresh-tasting drink enhanced with natural peach puree means you’ll not only taste the bright peach flavor, you’ll feel peachy too!</p>
+       </div>
+    </div>
+<br>
+    <a href="" class="btn back" style="margin-left: 700px; width: 150px;font-size: 1.2em;text-align: center;">Back</a>
+   <br><br><br>
+    </div>
+
+   <!--  Single Product 3-->
+ <div class="div3">
+  <a href="#" class="btn back" style="margin-left: 700px; width: 150px;font-size: 1.2em;text-align: center;">Back</a>
+<div class="small-container single-product">
+    <div class="row">
+        <div class="col-2">
+            <img src="27.png" width="100%" id="ProductImg">
+        </div>
+        <div class="col-2">
+            <p>Home / Forever Product</p>
+            <h1>ALOE NOURISHING SERUM</h1>
+            <h4>$22.30</h4>
+            
+            <input type="number" value="1">
+            <a href="https://www.instagram.com/emotions_cell/" class="btn">Contact Us to Buy</a>
+            <h3>Product Details <i class="fa fa-indent"></i></h3>
+            <br>
+            <p> </p>
+        </div>
+    </div>
+</div>
+<div class="des">
+<a href="" class="btn desc">Description</a>
+   <h3></h3><br>
+   <div class="details">
+        
+      <br> <p></p>
+       </div>
+    </div>
+    
+<br> <a href="" class="btn back" style="margin-left: 700px; width: 150px;font-size: 1.2em;text-align: center;">Back</a>
+   <br><br><br>
+    </div>
+   <!--  Single Product 4-->
+ <div class="div4">
+  <a href="#" class="btn back" style="margin-left: 700px; width: 150px;font-size: 1.2em;text-align: center;">Back</a>
+<div class="small-container single-product">
+    <div class="row">
+        <div class="col-2">
+            <img src="28.png" width="100%" id="ProductImg">
+        </div>
+        <div class="col-2">
+            <p>Home / Forever Product</p>
+            <h1>Eye cream</h1>
+            <h4>$23.05</h4>
+            
+            <input type="number" value="1">
+            <a href="https://www.instagram.com/emotions_cell/" class="btn">Contact Us to Buy</a>
+            <h3>Product Details <i class="fa fa-indent"></i></h3>
+            <br>
+            <p> </p>
+        </div>
+    </div>
+</div>
+<div class="des">
+<a href="" class="btn desc">Description</a>
+   <h3></h3><br>
+   <div class="details">
+        
+      <br> <p></p>
+       </div>
+    </div>
+    
+<br> <a href="" class="btn back" style="margin-left: 700px; width: 150px;font-size: 1.2em;text-align: center;">Back</a>
+   <br><br><br>
+    </div>
+   <!--  Single Product 5-->
+ <div class="div5">
+  <a href="#" class="btn back" style="margin-left: 700px; width: 150px;font-size: 1.2em;text-align: center;">Back</a>
+<div class="small-container single-product">
+    <div class="row">
+        <div class="col-2">
+            <img src="29.png" width="100%" id="ProductImg">
+        </div>
+        <div class="col-2">
+            <p>Home / Forever Product</p>
+            <h1>ALOE AVOCADO FACE AND BODY SOAP</h1>
+            <h4>$25.21</h4>
+            
+            <input type="number" value="1">
+            <a href="https://www.instagram.com/emotions_cell/" class="btn">Contact Us to Buy</a>
+            <h3>Product Details <i class="fa fa-indent"></i></h3>
+            <br>
+            <p> </p>
+        </div>
+    </div>
+</div>
+<div class="des">
+<a href="" class="btn desc">Description</a>
+   <h3></h3><br>
+   <div class="details">
+        
+      <br> <p></p>
+       </div>
+    </div>
+    
+<br> <a href="" class="btn back" style="margin-left: 700px; width: 150px;font-size: 1.2em;text-align: center;">Back</a>
+   <br><br><br>
+    </div>
+   <!--  Single Product 6-->
+ <div class="div6">
+  <a href="#" class="btn back" style="margin-left: 700px; width: 150px;font-size: 1.2em;text-align: center;">Back</a>
+<div class="small-container single-product">
+    <div class="row">
+        <div class="col-2">
+            <img src="30.png" width="100%" id="ProductImg">
+        </div>
+        <div class="col-2">
+            <p>Home / Forever Product</p>
+            <h1>FOREVER ALOE MPD</h1>
+            <h4>$25.21</h4>
+            
+            <input type="number" value="1">
+            <a href="https://www.instagram.com/emotions_cell/" class="btn">Contact Us to Buy</a>
+            <h3>Product Details <i class="fa fa-indent"></i></h3>
+            <br>
+            <p> </p>
+        </div>
+    </div>
+</div>
+<div class="des">
+<a href="" class="btn desc">Description</a>
+   <h3></h3><br>
+   <div class="details">
+        
+      <br> <p></p>
+       </div>
+    </div>
+    
+<br> <a href="" class="btn back" style="margin-left: 700px; width: 150px;font-size: 1.2em;text-align: center;">Back</a>
+   <br><br><br>
+    </div>
+   <!--  Single Product 7-->
+ <div class="div7">
+  <a href="#" class="btn back" style="margin-left: 700px; width: 150px;font-size: 1.2em;text-align: center;">Back</a>
+<div class="small-container single-product">
+    <div class="row">
+        <div class="col-2">
+            <img src="31.png" width="100%" id="ProductImg">
+        </div>
+        <div class="col-2">
+            <p>Home / Forever Product</p>
+            <h1>ALOE JOJOBA CONDITIONING RINSE</h1>
+            <h4>$17.90</h4>
+            
+            <input type="number" value="1">
+            <a href="https://www.instagram.com/emotions_cell/" class="btn">Contact Us to Buy</a>
+            <h3>Product Details <i class="fa fa-indent"></i></h3>
+            <br>
+            <p> </p>
+        </div>
+    </div>
+</div>
+<div class="des">
+<a href="" class="btn desc">Description</a>
+   <h3></h3><br>
+   <div class="details">
+        
+      <br> <p></p>
+       </div>
+    </div>
+    
+<br> <a href="" class="btn back" style="margin-left: 700px; width: 150px;font-size: 1.2em;text-align: center;">Back</a>
+   <br><br><br>
+    </div>
+   <!--  Single Product 8-->
+ <div class="div8">
+  <a href="#" class="btn back" style="margin-left: 700px; width: 150px;font-size: 1.2em;text-align: center;">Back</a>
+<div class="small-container single-product">
+    <div class="row">
+        <div class="col-2">
+            <img src="32.png" width="100%" id="ProductImg">
+        </div>
+        <div class="col-2">
+            <p>Home / Forever Product</p>
+            <h1>FOREVER BEE HONEY</h1>
+            <h4>$39.69</h4>
+            
+            <input type="number" value="1">
+            <a href="https://www.instagram.com/emotions_cell/" class="btn">Contact Us to Buy</a>
+            <h3>Product Details <i class="fa fa-indent"></i></h3>
+            <br>
+            <p> </p>
+        </div>
+    </div>
+</div>
+<div class="des">
+<a href="" class="btn desc">Description</a>
+   <h3></h3><br>
+   <div class="details">
+        
+      <br> <p></p>
+       </div>
+    </div>
+    
+<br> <a href="" class="btn back" style="margin-left: 700px; width: 150px;font-size: 1.2em;text-align: center;">Back</a>
+   <br><br><br>
+    </div>
+   <!--  Single Product 9-->
+ <div class="div9">
+  <a href="#" class="btn back" style="margin-left: 700px; width: 150px;font-size: 1.2em;text-align: center;">Back</a>
+<div class="small-container single-product">
+    <div class="row">
+        <div class="col-2">
+            <img src="33.png" width="100%" id="ProductImg">
+        </div>
+        <div class="col-2">
+            <p>Home / Forever Product</p>
+            <h1>ALOE JOJOBA SHAMPOO</h1>
+            <h4>$3.01</h4>
+            
+            <input type="number" value="1">
+            <a href="https://www.instagram.com/emotions_cell/" class="btn">Contact Us to Buy</a>
+            <h3>Product Details <i class="fa fa-indent"></i></h3>
+            <br>
+            <p> </p>
+        </div>
+    </div>
+</div>
+<div class="des">
+<a href="" class="btn desc">Description</a>
+   <h3></h3><br>
+   <div class="details">
+        
+      <br> <p></p>
+       </div>
+    </div>
+    
+<br> <a href="" class="btn back" style="margin-left: 700px; width: 150px;font-size: 1.2em;text-align: center;">Back</a>
+   <br><br><br>
+    </div>
+   <!--  Single Product 10-->
+ <div class="div10">
+  <a href="#" class="btn back" style="margin-left: 700px; width: 150px;font-size: 1.2em;text-align: center;">Back</a>
+<div class="small-container single-product">
+    <div class="row">
+        <div class="col-2">
+            <img src="34.png" width="100%" id="ProductImg">
+        </div>
+        <div class="col-2">
+            <p>Home / Forever Product</p>
+            <h1>FOREVER ROYAL JELLY</h1>
+            <h4>$39.26</h4>
+            
+            <input type="number" value="1">
+            <a href="https://www.instagram.com/emotions_cell/" class="btn">Contact Us to Buy</a>
+            <h3>Product Details <i class="fa fa-indent"></i></h3>
+            <br>
+            <p> </p>
+        </div>
+    </div>
+</div>
+<div class="des">
+<a href="" class="btn desc">Description</a>
+   <h3></h3><br>
+   <div class="details">
+        
+      <br> <p></p>
+       </div>
+    </div>
+    
+<br> <a href="" class="btn back" style="margin-left: 700px; width: 150px;font-size: 1.2em;text-align: center;">Back</a>
+   <br><br><br>
+    </div>
+   <!--  Single Product 11-->
+ <div class="div11">
+  <a href="#" class="btn back" style="margin-left: 700px; width: 150px;font-size: 1.2em;text-align: center;">Back</a>
+<div class="small-container single-product">
+    <div class="row">
+        <div class="col-2">
+            <img src="35.png" width="100%" id="ProductImg">
+        </div>
+        <div class="col-2">
+            <p>Home / Forever Product</p>
+            <h1>FOREVER C PLUS</h1>
+            <h4>$85.07</h4>
+            
+            <input type="number" value="1">
+            <a href="https://www.instagram.com/emotions_cell/" class="btn">Contact Us to Buy</a>
+            <h3>Product Details <i class="fa fa-indent"></i></h3>
+            <br>
+            <p> </p>
+        </div>
+    </div>
+</div>
+<div class="des">
+<a href="" class="btn desc">Description</a>
+   <h3></h3><br>
+   <div class="details">
+        
+      <br> <p></p>
+       </div>
+    </div>
+    
+<br> <a href="" class="btn back" style="margin-left: 700px; width: 150px;font-size: 1.2em;text-align: center;">Back</a>
+   <br><br><br>
+    </div>
+   <!--  Single Product 12-->
+ <div class="div12">
+  <a href="#" class="btn back" style="margin-left: 700px; width: 150px;font-size: 1.2em;text-align: center;">Back</a>
+<div class="small-container single-product">
+    <div class="row">
+        <div class="col-2">
+            <img src="36.png" width="100%" id="ProductImg">
+        </div>
+        <div class="col-2">
+            <p>Home / Forever Product</p>
+            <h1>ALPHA E FACTOR</h1>
+            <h4>$30.00</h4>
+            
+            <input type="number" value="1">
+            <a href="https://www.instagram.com/emotions_cell/" class="btn">Contact Us to Buy</a>
+            <h3>Product Details <i class="fa fa-indent"></i></h3>
+            <br>
+            <p> </p>
+        </div>
+    </div>
+</div>
+<div class="des">
+<a href="" class="btn desc">Description</a>
+   <h3></h3><br>
+   <div class="details">
+        
+      <br> <p></p>
+       </div>
+    </div>
+    
+<br> <a href="" class="btn back" style="margin-left: 700px; width: 150px;font-size: 1.2em;text-align: center;">Back</a>
+   <br><br><br>
+    </div>
+    
+</div>
+    
+<!--   Footer -->
+    <div class="footer">
+    <div class="container">
+    <div class="row">
+        <div class="footer-col-1">
+            <h3>This Footer is Under Development</h3>
+            <p>Download App for Anroid and IOS Mobile Phone.</p>
+            <div class="app-logo">
+            <img src="play-store.png">
+            <img src="app-store.png">
+            </div>
+        </div>  
+        <div class="footer-col-2">
+           <h1>Forever Living</h1><br>
+            <p>Our Purpose is to make the pleasure and benefits of Quality Product Accesseble to the Many.</p>
+        </div>    
+        <div class="footer-col-3">
+            <h4>Useful Links</h4>
+            <ul>
+                <li>Coupons</li>
+                <li>Blog Post</li>
+                <li>Return policy</li>
+                <li>Join Affiliate</li>
+            </ul>
+        </div>    
+        <div class="footer-col-4">
+            <h4>Follow Us</h4>
+            <ul>
+                <li>Facebook</li>
+                <li>Instagram</li>
+                <li>Twitter</li>
+                <li>Youtube</li>
+            </ul>
+        </div>    
+    </div>   
+        <hr>
+        <p class="copyright"> Copyright 2020 - Ankit From Forever Living</p>
+    </div>
+    </div>
+<!--    Js-->
+    <script>
+    var MenuItems = document.getElementById("MenuItems");
+        MenuItems.style.maxHeight = "0px";
+        
+        function menutoggle(){
+            if(MenuItems.style.maxHeight == "0px"){
+                MenuItems.style.maxHeight = "200px";
+            }
+            else{
+                MenuItems.style.maxHeight = "0px";
+            }
+        }
+    </script>
+</body>
+</html>
